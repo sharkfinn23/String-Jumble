@@ -32,7 +32,6 @@ list2=list1[::-1]
 print("".join(list2))
 
 list3 = letters.split()
-print(list3)
 list3.reverse()
 print(" ".join(list3))
-print(' '.join(w[::-1] for w in letters.split()))
+print(" ".join(x[::-1] for x in letters.split()))
